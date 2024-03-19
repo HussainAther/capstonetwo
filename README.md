@@ -10,6 +10,7 @@ The dataset used in this project is obtained from The MET API, which provides me
 
 ## Setup
 
+```
 # first clone the repository
 git clone <repository_url>
 
@@ -22,7 +23,7 @@ python3 -m venv venv
 # start using the environment
 source venv/bin/activate
 
-# updgrade pip and install dependencies
+# upgrade pip and install dependencies
 pip install --upgrade pip
 pip install -r main/requirements.txt
 
@@ -32,6 +33,7 @@ ipython kernel install --user --name=arart
 
 # to deactivate the environment after use
 deactivate
+```
 
 ## Project Steps
 
